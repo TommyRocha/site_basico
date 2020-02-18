@@ -1,35 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <!--comeabeçalho-->
     <head>
+        
         <meta charset="UTF-8"/>
         <title>Site informativo</title>
-        <bady>
-            <header>
+
+    </head>
+    <!--começo do corpo do site-->
+    <bady>
+        <!--tudo que estiver dentro do <header> representa nosso menu-->
+        <header>
+            <!--coloque um <h1> por página-->
+            <hgroup>
                 <h1>Informações</h1>
                 <h2>Mundo Geek</h2>
+            </hgroup>            
 
-                <p>Confira nesta página as principais
+            <p>Confira nesta página as principais
                     notícias de tudo que está acontecendo no mundo
                     Nerd e Geek.
-                </p>
-                <nav>
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Notícias</a></li>
-                        <li><a href="">Blog</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <footer>
-                <nav>
-                    <ul>
-                        <li><a href="#">Artigos</a></li>
-                        <li><a href="#">Politica</a></li>
-                    </ul>
-                </nav>
-                <p>&copy; Tommy Rocha</p>
-                <p>teste</p>
-            </footer>
-        </bady>
-    </head>
+            </p>
+            <!--menu do site-->
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Notícias</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <p>_______________________________</p>
+        <!--a tag <main> é o nosso conteúdo principal-->
+        <main>
+            <!--uma sessão-->
+            <section>
+                <h2>Primeiras matérias</h2>
+                <p>Teremos aqui nossas primeiras matérias sobre o mundo Nerd e Geek</p>
+                <!--dendtro da sessão podemos ter mais de um artigo-->    
+                <article>
+
+                    <h3><a href="#">Mundo Nerd</a></h3>
+                    <p>Tudo sobre o mundo Nerd.</p>
+                    <!--toda imagem colocamos ela dentro da tag <figure>-->
+                    <figure>
+                        <img src="Imagem/2.jpg" alt="Imagem ilustrativa"/>
+                        <figurecaption>Uma imagem qualquer</figurecaption>
+                    </figure>
+            
+                </article>
+
+                <article>
+                
+                    <h3><a href="#">Mundo Geek</a></h3>
+                    <p>Tudo sobre o mundo Geek.</p>
+                    <figure>
+                        <img src="Imagem/3.png" alt="Apenas uma imagem"/>
+                    </figure>
+                
+                </article>
+                
+            </section>
+
+            <!--mais uma sessão-->
+            <section>
+                <article>
+                    <h3>Blog</h3>
+                    <p>Aqui ficará o nosso blog com todas as novidades do site.</p>
+                    <figure>
+                        <img src="Imagem//1.jpg"/>
+                    </figure>
+                </article>
+            </section>
+        
+        </main>
+        
+        <p>_______________________________</p>
+        <!--a tag <footer> é o nosso rodapé do site-->    
+        <footer>
+               
+            <nav>
+                <ul>
+                    <li><a href="#">Artigos</a></li>
+                    <li><a href="#">Politica</a></li>
+                </ul>
+            </nav>
+            <p>&copy; Tommy Rocha</p>
+            
+        </footer>
+        
+    </bady>
+   
 </html>
